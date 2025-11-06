@@ -12,7 +12,7 @@
     {
       "name": "pdf-editor",
       "description": "Professional PDF editing plugin for rotating pages, updating links, and adding company branding",
-      "source": ".",
+      "source": "./.claude-plugin",
       "strict": false,
       "skills": [
         "./skills/pdf-editor"
