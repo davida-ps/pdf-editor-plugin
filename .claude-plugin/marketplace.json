@@ -1,0 +1,11 @@
+{
+  "name": "pdf-editor-marketplace",
+  "owner": {
+    "name": "davida-ps",
+    "email": "david@yourcompany.com"
+  },
+  "description": "PDF Editor Plugin",
+  "plugins": [
+    "."
+  ]
+}
