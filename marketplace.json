@@ -1,0 +1,21 @@
+{
+  "name": "pdf-editor-marketplace",
+  "owner": "davida-ps",
+  "description": "PDF Editor Plugin Marketplace",
+  "plugins": [
+    {
+      "name": "pdf-editor",
+      "version": "1.0.0",
+      "description": "Professional PDF editing plugin for rotating pages, updating links, and adding company branding",
+      "author": {
+        "name": "Your Team",
+        "email": "team@yourcompany.com"
+      },
+      "source": {
+        "type": "git",
+        "url": "https://github.com/davida-ps/pdf-editor-plugin.git",
+        "directory": ".claude-plugin"
+      }
+    }
+  ]
+}
