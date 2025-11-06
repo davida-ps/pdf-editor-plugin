@@ -1,0 +1,38 @@
+{
+  "name": "pdf-editor",
+  "description": "Professional PDF editing skill for rotating pages, replacing links/URLs, and adding company branding to footers. Perfect for fixing legacy documents with outdated internal links and page orientation issues.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Your Team",
+    "email": "team@yourcompany.com"
+  },
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "rotate-pages",
+      "description": "Rotate specific pages in a PDF by specified angles",
+      "script": "scripts/pdf_editor.py"
+    },
+    {
+      "name": "replace-urls",
+      "description": "Replace all instances of old text/URLs with new ones in a PDF",
+      "script": "scripts/pdf_editor.py"
+    },
+    {
+      "name": "add-footer",
+      "description": "Add company branding image to the footer of all pages",
+      "script": "scripts/pdf_editor.py"
+    }
+  ],
+  "assets": {
+    "logo": "assets/footer_logo.svg"
+  },
+  "keywords": [
+    "pdf",
+    "editing",
+    "rotation",
+    "url-replacement",
+    "branding",
+    "legacy-documents"
+  ]
+}
