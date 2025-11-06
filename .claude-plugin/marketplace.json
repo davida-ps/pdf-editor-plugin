@@ -1,6 +1,9 @@
 {
-  "name": "pdf-editor-plugin",
-  "owner": "davida-ps",
+  "name": "pdf-editor-marketplace",
+  "owner": {
+    "name": "davida-ps",
+    "email": "david@yourcompany.com"
+  },
   "description": "Professional PDF editing capabilities",
   "plugins": [
     {
@@ -10,6 +13,10 @@
       "author": {
         "name": "Your Team",
         "email": "team@yourcompany.com"
+      },
+      "source": {
+        "type": "directory",
+        "path": "."
       },
       "keywords": [
         "pdf",
