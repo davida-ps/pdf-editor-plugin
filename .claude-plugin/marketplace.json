@@ -6,6 +6,23 @@
   },
   "description": "PDF Editor Plugin",
   "plugins": [
-    "."
+    {
+      "name": "pdf-editor",
+      "version": "1.0.0",
+      "description": "Professional PDF editing plugin for rotating pages, updating links, and adding company branding",
+      "author": {
+        "name": "Your Team",
+        "email": "team@yourcompany.com"
+      },
+      "source": ".",
+      "keywords": [
+        "pdf",
+        "editing",
+        "rotation",
+        "url-replacement",
+        "branding"
+      ],
+      "license": "MIT"
+    }
   ]
 }
