@@ -14,10 +14,6 @@
         "name": "Your Team",
         "email": "team@yourcompany.com"
       },
-      "source": {
-        "type": "directory",
-        "path": "."
-      },
       "keywords": [
         "pdf",
         "editing",
