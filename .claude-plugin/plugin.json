@@ -18,7 +18,7 @@
     "legacy-documents"
   ],
   "skills": [
-    "skills/pdf-editor"
+    "./skills/pdf-editor"
   ],
   "commands": [],
   "agents": [],
