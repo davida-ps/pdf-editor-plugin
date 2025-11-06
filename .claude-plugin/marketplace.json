@@ -4,25 +4,19 @@
     "name": "davida-ps",
     "email": "david@yourcompany.com"
   },
-  "description": "PDF Editor Plugin",
+  "metadata": {
+    "description": "PDF Editor Plugin",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "pdf-editor",
-      "version": "1.0.0",
       "description": "Professional PDF editing plugin for rotating pages, updating links, and adding company branding",
-      "author": {
-        "name": "Your Team",
-        "email": "team@yourcompany.com"
-      },
-      "source": ".",
-      "keywords": [
-        "pdf",
-        "editing",
-        "rotation",
-        "url-replacement",
-        "branding"
-      ],
-      "license": "MIT"
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/pdf-editor"
+      ]
     }
   ]
 }
