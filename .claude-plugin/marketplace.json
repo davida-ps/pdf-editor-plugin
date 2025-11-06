@@ -13,10 +13,7 @@
       "name": "pdf-editor",
       "description": "Professional PDF editing plugin for rotating pages, updating links, and adding company branding",
       "source": "./",
-      "strict": false,
-      "skills": [
-        "./skills/pdf-editor"
-      ]
+      "strict": false
     }
   ]
 }
