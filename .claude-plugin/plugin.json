@@ -1,0 +1,36 @@
+{
+  "name": "pdf-editor",
+  "displayName": "PDF Editor",
+  "version": "1.0.0",
+  "description": "Professional PDF editing plugin for rotating pages, updating links, and adding company branding. Perfect for fixing legacy documents with outdated internal links and page orientation issues.",
+  "author": "Your Team",
+  "license": "MIT",
+  "repository": "https://github.com/your-org/pdf-editor-plugin",
+  "bugs": "https://github.com/your-org/pdf-editor-plugin/issues",
+  "homepage": "https://github.com/your-org/pdf-editor-plugin",
+  "keywords": [
+    "pdf",
+    "editing",
+    "rotation",
+    "url-replacement",
+    "branding",
+    "legacy-documents"
+  ],
+  "skills": [
+    {
+      "id": "pdf-editor",
+      "name": "pdf-editor",
+      "path": "skills/pdf-editor"
+    }
+  ],
+  "dependencies": {
+    "python": "3.8+",
+    "packages": [
+      "PyPDF2",
+      "reportlab"
+    ]
+  },
+  "commands": [],
+  "agents": [],
+  "hooks": []
+}

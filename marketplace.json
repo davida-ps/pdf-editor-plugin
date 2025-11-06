@@ -1,0 +1,81 @@
+{
+  "plugins": [
+    {
+      "id": "pdf-editor",
+      "name": "PDF Editor",
+      "displayName": "PDF Editor",
+      "version": "1.0.0",
+      "description": "Professional PDF editing plugin for rotating pages, updating links, and adding company branding. Perfect for fixing legacy documents with outdated internal links and page orientation issues.",
+      "longDescription": "The PDF Editor plugin provides comprehensive PDF manipulation capabilities through a single, intuitive interface. It enables you to:\n\n• Rotate specific pages to fix orientation issues\n• Replace all instances of old URLs/text with new ones (e.g., updating legacy wiki links)\n• Add company branding images to footers consistently across all pages\n• Combine multiple operations in a single command\n\nPerfect for organizations managing legacy documents with outdated internal links or incorrect page orientations. Supports PDF files that have been scanned, OCR'd, or previously printed.\n\nExample use cases:\n- Fix archived team wiki links after migration (e.g., team-wiki.local → team-wiki.etc.com)\n- Correct page orientation in batches of scanned documents\n- Add company branding to existing PDFs\n- Combine rotation, link updates, and branding in one operation",
+      "author": "Your Team",
+      "authorUrl": "https://github.com/your-org",
+      "repository": "https://github.com/your-org/pdf-editor-plugin",
+      "homepage": "https://github.com/your-org/pdf-editor-plugin",
+      "bugs": "https://github.com/your-org/pdf-editor-plugin/issues",
+      "license": "MIT",
+      "category": "utilities",
+      "tags": [
+        "pdf",
+        "document-processing",
+        "editing",
+        "automation",
+        "branding",
+        "legacy-documents"
+      ],
+      "icon": "📄",
+      "rating": 5.0,
+      "downloads": 0,
+      "lastUpdated": "2025-11-06T00:00:00Z",
+      "installUrl": "https://github.com/your-org/pdf-editor-plugin",
+      "skills": [
+        {
+          "id": "pdf-editor",
+          "name": "PDF Editor",
+          "description": "Enables PDF editing including page rotation, URL/text replacement, and footer branding. This skill should be used when users want to edit PDFs by rotating pages, replacing links/text (such as updating old wiki URLs to new ones), and adding company branding images to footers. Ideal for fixing legacy documents with outdated links or correcting page orientation issues."
+        }
+      ],
+      "dependencies": {
+        "python": "3.8+",
+        "system": [],
+        "pip": [
+          "PyPDF2>=3.0.0",
+          "reportlab>=4.0.0"
+        ]
+      },
+      "screenshots": [
+        {
+          "title": "PDF Rotation Example",
+          "description": "Rotate specific pages to fix orientation"
+        },
+        {
+          "title": "Link Replacement",
+          "description": "Automatically update all old wiki links to new URLs"
+        },
+        {
+          "title": "Footer Branding",
+          "description": "Add company logo to footer on all pages"
+        }
+      ],
+      "features": [
+        "Rotate pages by custom angles",
+        "Replace text/URLs throughout PDF",
+        "Add images to footer for branding",
+        "Batch process multiple PDFs",
+        "Combine operations in single command",
+        "Handle scanned and OCR'd documents"
+      ],
+      "changelog": {
+        "1.0.0": {
+          "date": "2025-11-06",
+          "changes": [
+            "Initial release",
+            "Support for page rotation",
+            "URL/text replacement functionality",
+            "Footer image branding",
+            "Comprehensive documentation and API reference"
+          ]
+        }
+      }
+    }
+  ]
+}
